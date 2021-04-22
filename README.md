@@ -17,13 +17,13 @@ consist of 4 functions:
  process_song_data: 
 - reads the data from S3 public bucket from udacity.
 - tranform the data based on pre defined schema.
-- sort data and store them in parquet files locally which can be used to creat a view to run sql queries by anaylst.
+- sort data and store them in parquet files locally which can be used to create a view to run sql queries by anaylst.
  
  process_log_data:
  - consist a schema to read the s3 data.
  - reads the data from S3 public bucket from udacity.
 - tranform the data based on pre defined schema.
-- sort data and store them in parquet files locally which can be used to creat a view to run sql queries by anaylst.
+- sort data and store them in parquet files locally which can be used to create a view to run sql queries by anaylst.
 
 
 globally define parameters;
